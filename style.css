@@ -9,6 +9,7 @@ body {
     background: linear-gradient(135deg, #4facfe 0%, #00c6fb 100%);
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -96,4 +97,60 @@ footer {
     margin-top: 40px;
     color: #999;
     font-size: 14px;
+}
+
+footer a {
+    color: #999;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.ad-container {
+    width: 100%;
+    max-width: 728px;
+    text-align: center;
+}
+
+.ad-top {
+    margin-bottom: 20px;
+}
+
+.ad-bottom {
+    margin-top: 20px;
+}
+
+.ad-placeholder {
+    background: rgba(255,255,255,0.3);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.privacy-page {
+    text-align: left;
+    max-width: 600px;
+}
+
+.privacy-page h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.policy-content h2 {
+    color: #333;
+    font-size: 18px;
+    margin: 20px 0 10px;
+}
+
+.policy-content p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.privacy-page footer {
+    text-align: center;
 }
