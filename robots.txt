@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ckr-git.github.io/qrcode-generator/sitemap.xml
+Sitemap: https://52dianshangdiguo.site/sitemap.xml
