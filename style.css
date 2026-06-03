@@ -332,6 +332,14 @@ footer a:hover {
     border: 2px solid #fff;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.wecom-hint {
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+    margin-top: 8px;
 }
 
 /* 步骤列表 */
